@@ -74,7 +74,7 @@ runs:
 
     - name: Determine changed files
       id: changed-files
-      uses: approved-3rd-party-actions/changed-files@aa08304bd477b800d468db44fe10f6c61f7f7b11 # v42.1.0
+      uses: step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1 # v45.0.1
       with:
         write_output_files: true
         json: true
